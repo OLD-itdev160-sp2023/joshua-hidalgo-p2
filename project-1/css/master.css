@@ -1,0 +1,28 @@
+body{
+    background-color: #c19a6b; 
+}
+h1{
+    font-family: "Sofia", sans-serif;
+    text-align: left;
+    color: black;
+    background-color: beige;
+}
+img{
+    height: 300px;
+    text-align: left;
+}
+figcaption span{
+    font-size: .9em;
+}
+div.places{
+    background-color:lightgray;
+    padding: 1px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+div.places:hover{
+    background-color: lightblue;
+}
+#cal{
+    background-color: lightgray;
+}

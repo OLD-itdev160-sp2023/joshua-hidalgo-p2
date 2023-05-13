@@ -1,0 +1,24 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto 40px;
+    background-color: aqua;
+}
+h1{
+    margin-bottom: 10px;
+    padding-top: 2em;
+}
+img{
+    width: 80%;
+}
+div.package-container{
+    background-color:darkturquoise;
+    padding-bottom: 30px;
+    padding-left: 3.5em;
+}
+#date{
+    font-size: 23px;
+}
+#author{
+    font-size: 18px;
+    color: darkslateblue;
+}

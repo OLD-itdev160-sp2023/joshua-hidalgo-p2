@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens of the Universe 2.0</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="dragQueenTitle">Book A Drag Queen</h1>
+        </div class = "header-menu">
+            <button id="book-button">Book</button>
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img src="images/athynist.jpg" alt="athynist black outfit" id="left-picture">
+        </figure>
+        <figure>
+            <img src="images/athynist2.jpg" alt="athynist turquoise wig" id="right-picture">
+        </figure>
+        <section id="display-content"></section>
+    </main>
+    <footer></footer>
+
+    
+    <!--Asking the user for information-->
+<div class="modal" id="modal-dialog">
+    <section>
+        <h3>Who would you like to book?</h3>
+        <input type="text" id="edit-content-text-book"></input>
+    </section>
+    <section>
+        <h3>When would you like them to perform? DD/MM/YYYY</h3>
+        <input type="text" id="edit-content-text-when" ></input>
+    </section>
+    <section>
+            <h3>Where would you like them to perform?</h3>
+            <input type="text" id="edit-content-text-where" cols="20" rows="3"></input>
+    </section>
+    <section>
+            <h3>What is the special occasion?</h3>
+            <input type="text" id="edit-content-text-occasion"></input>
+    </section>
+    <section>
+        <h4>You'll get one of these gifts as a surprise</h4>
+        <p id="list-gift"></p>
+        <p id = "surprise-gift"></p>
+    </section>
+    <footer>
+        <button id="cancel-button">Cancel</button>
+        <button id="save-button">Save</button>
+    </footer>
+</div>
+    <div id="modal-backdrop"></div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
